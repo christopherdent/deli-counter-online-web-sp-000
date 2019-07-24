@@ -28,5 +28,5 @@ def take_a_number(array, name)
         
    puts "Welcome, #{name}. You are number #{array.count} in line."
       
-   end 
+end 
   
