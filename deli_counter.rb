@@ -33,7 +33,7 @@ end
 
 #########################################################################################################
 
-def now_serving
+def now_serving(array, name)
   if array.empty?
     "There is nobody waiting to be served!"
   else
