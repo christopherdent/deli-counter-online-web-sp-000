@@ -38,7 +38,7 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     
-    puts "Currently serving #{array[0]}."
+    puts "Currently serving #{array.delete_at(0)}."
     array.unshift
     return array
     
