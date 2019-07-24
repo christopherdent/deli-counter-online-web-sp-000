@@ -40,6 +40,7 @@ def now_serving(array)
     
     puts "Currently serving #{array[0]}."
     array.unshift
+    return array
     
 end 
 end 
