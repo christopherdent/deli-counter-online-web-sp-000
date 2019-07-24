@@ -30,11 +30,11 @@ def take_a_number(array, name)
     
   else 
     array.push(name)
-    
-    array.each.with_index(1) do |name, index|
+    counter = 0
+    array.each do |name, index|
       
-      puts "Welcome, #{name}. You are number #{index} in line."
-      
+      puts "Welcome, #{name}. You are number #{counter} in line."
+      counter = counter += 1 
     end
     
   end
