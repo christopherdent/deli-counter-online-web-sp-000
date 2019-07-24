@@ -35,7 +35,7 @@ def take_a_number(array, name)
     
     puts "Welcome, #{name}. You are number #{index} in line."
       
-    end
+    
     
   end
 
