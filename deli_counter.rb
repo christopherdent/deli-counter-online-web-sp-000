@@ -31,7 +31,7 @@ def take_a_number(array, name)
   else 
     array.push(name)
     
-    array.each do |x| 
+    array.map do |x, y| 
     
     puts "Welcome, #{name}. You are number #{x} in line."
       
