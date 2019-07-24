@@ -42,6 +42,7 @@ def now_serving(array, name)
     array.pop
     
 end 
+end 
 
 
 
