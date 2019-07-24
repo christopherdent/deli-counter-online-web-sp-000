@@ -31,9 +31,7 @@ def take_a_number(array, name)
   else 
     array.push(name)
     
-    array.each.with_index(1) do |name, index|
-      
-      puts "Welcome, #{name}. You are number #{index} in line."
+    puts "Welcome, #{name}. You are number #{index} in line."
       
     end
     
