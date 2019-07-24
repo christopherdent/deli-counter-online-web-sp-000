@@ -25,7 +25,7 @@ end
 
 def take_a_number(array, name)
    
-   array.each.with_index
+   array.each.with_index(1) do |name, index|
     array.push(name)
     puts "Welcome, #{name}. You are number 1 in line."
     
