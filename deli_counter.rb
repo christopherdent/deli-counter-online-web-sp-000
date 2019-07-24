@@ -38,7 +38,7 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     
-    puts array[1]
+    puts "Currently serving #{array[1]}"
     array.pop
     
 end 
