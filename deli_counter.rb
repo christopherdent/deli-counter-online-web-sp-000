@@ -31,6 +31,8 @@ def take_a_number(array, name)
   else 
     array.push(name)
     
+    index = array.index { |x| x == "b" } 
+    
     puts "Welcome, #{name}. You are number #{index} in line."
       
     end
