@@ -34,7 +34,13 @@ end
 #########################################################################################################
 
 def now_serving
-  
+  if array.empty?
+    "There is nobody waiting to be served!"
+  else
+    
+    puts array[1]
+    array.pop
+    
 end 
 
 
