@@ -32,9 +32,9 @@ def take_a_number(array, name)
     array.push(name)
     counter = 0
     array.each do |name, index|
-      
-      puts "Welcome, #{name}. You are number #{counter} in line."
       counter = counter += 1 
+      puts "Welcome, #{name}. You are number #{counter} in line."
+      
     end
     
   end
