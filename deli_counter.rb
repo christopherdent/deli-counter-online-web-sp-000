@@ -24,15 +24,12 @@ end
 
 
 def take_a_number(array, name)
-    if array.empty?
+   
+   array.each.with_index
     array.push(name)
     puts "Welcome, #{name}. You are number 1 in line."
     
-  else 
-    array.push(name)
-    
-    array. 
-    
+   
     puts "Welcome, #{name}. You are number #{y} in line."
       
     
