@@ -42,7 +42,7 @@ def now_serving(array)
     array.unshift
     return array
     
-end 
+  end 
 end 
 
 
